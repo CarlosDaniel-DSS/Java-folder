@@ -1,19 +1,24 @@
-import java.util.Scanner;
-
 public class loop {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("Digite um número: ");
-        int numero = input.nextInt();
-        int sum = 0;
+        /*
+        int z = 2;
+        int sum = 1;
 
-        while (numero >= 0) {
-            sum += numero;
-            numero--;
-        }
+        while (z <= 11) {
+            System.out.println(sum);
+            sum += z;
+            z += 1;
+        } */
 
-        System.out.println(sum);
-        input.close();
+        int z = 1;
+        int sum = 0; 
+
+
+        while (z <= 10) {
+            sum += z;
+            System.out.println(sum);
+            z += 1;
+        } 
     }
 }

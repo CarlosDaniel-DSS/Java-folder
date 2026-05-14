@@ -15,5 +15,6 @@ public class media {
         System.out.println(soma);
 
         sc.close();
+
     }
 }
